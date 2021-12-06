@@ -4,7 +4,7 @@
 
 | 专题              | 位置                                                     | 状态 |
 | :---------------- | :------------------------------------------------------- | :--- |
-| ajaxToPromise     | [ajaxToPromise]('./javascript/ajaxToPromise.js')         | ⛽️  |
+| ajaxToPromise     | [ajaxToPromise]('./javascript/ajaxToPromise.js')         | ✅  |
 | apply             | [apply]('./javascript/apply.js')                         | ✅   |
 | async-log         | [async-log]('./javascript/async-log.js')                 | ⛽️  |
 | bind              | [bind]('./javascript/bind.js')                           | ✅   |
