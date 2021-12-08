@@ -6,10 +6,10 @@
 | :---------------- | :------------------------------------------------------- | :--- |
 | ajaxToPromise     | [ajaxToPromise]('./javascript/ajaxToPromise.js')         | ✅  |
 | apply             | [apply]('./javascript/apply.js')                         | ✅   |
-| async-log         | [async-log]('./javascript/async-log.js')                 | ⛽️  |
+| async-log         | [async-log]('./javascript/async-log.js')                 | ✅  |
 | bind              | [bind]('./javascript/bind.js')                           | ✅   |
 | call              | [call]('./javascript/call.js')                           | ✅   |
-| copy              | [copy]('./javascript/copy.js')                           | ⛽️  |
+| copy              | [copy]('./javascript/copy.js')                           | ✅  |
 | curry             | [curry]('./javascript/curry.js')                         | ⛽️  |
 | debounce          | [debounce]('./javascript/debounce.js')                   | ⛽️  |
 | disorder          | [disorder]('./javascript/disorder.js')                   | ⛽️  |
