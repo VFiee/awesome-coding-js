@@ -10,7 +10,7 @@
 | bind              | [bind]('./javascript/bind.js')                           | ✅   |
 | call              | [call]('./javascript/call.js')                           | ✅   |
 | copy              | [copy]('./javascript/copy.js')                           | ✅  |
-| curry             | [curry]('./javascript/curry.js')                         | ⛽️  |
+| curry             | [curry]('./javascript/curry.js')                         | ✅  |
 | debounce          | [debounce]('./javascript/debounce.js')                   | ⛽️  |
 | disorder          | [disorder]('./javascript/disorder.js')                   | ⛽️  |
 | eventEmitter      | [eventEmitter]('./javascript/eventEmitter.js')           | ⛽️  |
