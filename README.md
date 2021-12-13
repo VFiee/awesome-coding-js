@@ -4,14 +4,14 @@
 
 | 专题              | 位置                                                     | 状态 |
 | :---------------- | :------------------------------------------------------- | :--- |
-| ajaxToPromise     | [ajaxToPromise]('./javascript/ajaxToPromise.js')         | ✅  |
+| ajaxToPromise     | [ajaxToPromise]('./javascript/ajaxToPromise.js')         | ✅   |
 | apply             | [apply]('./javascript/apply.js')                         | ✅   |
-| async-log         | [async-log]('./javascript/async-log.js')                 | ✅  |
+| async-log         | [async-log]('./javascript/async-log.js')                 | ✅   |
 | bind              | [bind]('./javascript/bind.js')                           | ✅   |
 | call              | [call]('./javascript/call.js')                           | ✅   |
-| copy              | [copy]('./javascript/copy.js')                           | ✅  |
-| curry             | [curry]('./javascript/curry.js')                         | ✅  |
-| debounce          | [debounce]('./javascript/debounce.js')                   | ⛽️  |
+| copy              | [copy]('./javascript/copy.js')                           | ✅   |
+| curry             | [curry]('./javascript/curry.js')                         | ✅   |
+| debounce          | [debounce]('./javascript/debounce.js')                   | ✅   |
 | disorder          | [disorder]('./javascript/disorder.js')                   | ⛽️  |
 | eventEmitter      | [eventEmitter]('./javascript/eventEmitter.js')           | ⛽️  |
 | extend            | [extend]('./javascript/extend.js')                       | ⛽️  |
