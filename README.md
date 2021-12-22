@@ -13,7 +13,7 @@
 | curry             | [curry](./javascript/curry.js)                         | ✅   |
 | debounce          | [debounce](./javascript/debounce.js)                   | ✅   |
 | disorder          | [disorder](./javascript/disorder.js)                   | ✅   |
-| eventEmitter      | [eventEmitter](./javascript/eventEmitter.js)           | ⛽️  |
+| eventEmitter      | [eventEmitter](./javascript/eventEmitter.js)           | ✅  |
 | extend            | [extend](./javascript/extend.js)                       | ⛽️  |
 | flat              | [flat](./javascript/flat.js)                           | ⛽️  |
 | instanceof        | [instanceof](./javascript/instanceof.js)               | ⛽️  |
