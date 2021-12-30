@@ -17,7 +17,7 @@
 | extend            | [extend](./javascript/extend.js)                       | ⛽️  |
 | flat              | [flat](./javascript/flat.js)                           | ✅  |
 | instanceof        | [instanceof](./javascript/instanceof.js)               | ✅  |
-| jsonp             | [jsonp](./javascript/jsonp.js)                         | ⛽️  |
+| jsonp             | [jsonp](./javascript/jsonp.js)                         | ✅  |
 | lazyload-picture  | [lazyload-picture](./javascript/lazyload-picture.js)   | ⛽️  |
 | max               | [max](./javascript/max.js)                             | ⛽️  |
 | min               | [min](./javascript/min.js)                             | ⛽️  |
