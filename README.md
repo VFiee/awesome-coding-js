@@ -23,7 +23,7 @@
 | min               | [min](./javascript/min.js)                             | ✅  |
 | promise           | [promise](./javascript/promise.js)                     | ⛽️  |
 | singleton-pattern | [singleton-pattern](./javascript/singleton-pattern.js) | ⛽️  |
-| throttle          | [throttle](./javascript/throttle.js)                   | ⛽️  |
+| throttle          | [throttle](./javascript/throttle.js)                   | ✅  |
 | uniq              | [uniq](./javascript/uniq.js)                           | ⛽️  |
 
 ## 排序

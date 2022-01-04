@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>测试</title>
+  </head>
+  <body>
+    <script>
+      const throttle = (fn, wait = 0) => {
+        let timer
+        function throttled(...args) {
+          const run = () => {
+            timer = setTimeout(() => {
+              timer = null
+              fn(...args)
+            }, wait)
+          }
+          !timer && run()
+        }
+        function cancel() {
+          timer && clearTimeout(timer)
+          timer = null
+        }
+        function flush(...args) {
+          cancel()
+          fn(...args)
+        }
+        throttled.cancel = cancel
+        throttled.flush = flush
+        return throttled
+      }
+      //   const onInputChange = (e) => console.log(`value:`, e.target.value)
+      const onInputChange = throttle((e) => {
+        console.log(`value:`, e.target.value)
+      }, 1000)
+      console.log(onInputChange.flush)
+      onInputChange.flush({ target: { value: '12312' } })
+    </script>
+    <input type="text" oninput="onInputChange(event)" />
+  </body>
+</html>
