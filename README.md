@@ -19,8 +19,8 @@
 | instanceof        | [instanceof](./javascript/instanceof.js)               | ✅  |
 | jsonp             | [jsonp](./javascript/jsonp.js)                         | ✅  |
 | lazyload-picture  | [lazyload-picture](./javascript/lazyload-picture.js)   | ⛽️  |
-| max               | [max](./javascript/max.js)                             | ⛽️  |
-| min               | [min](./javascript/min.js)                             | ⛽️  |
+| max               | [max](./javascript/max.js)                             | ✅  |
+| min               | [min](./javascript/min.js)                             | ✅  |
 | promise           | [promise](./javascript/promise.js)                     | ⛽️  |
 | singleton-pattern | [singleton-pattern](./javascript/singleton-pattern.js) | ⛽️  |
 | throttle          | [throttle](./javascript/throttle.js)                   | ⛽️  |
