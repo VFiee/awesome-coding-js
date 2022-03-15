@@ -1,7 +1,7 @@
 /*
  * @Author: vyron
  * @Date: 2021-11-23 17:15:23
- * @LastEditTime: 2022-01-04 12:58:41
+ * @LastEditTime: 2022-03-15 11:11:16
  * @LastEditors: vyron
  * @Description: 实现防抖
  * @FilePath: /awesome-coding-js/javascript/debounce.js
@@ -20,6 +20,7 @@ const debounce = (fn, wait = 0) => {
             }, wait)
         }
         if (timer) {
+            console.log(`clear`)
             clearTimeout(timer)
             timer = null
         }
@@ -39,7 +40,7 @@ const debounce = (fn, wait = 0) => {
 }
 
 const fn = (i, prefix) => console.log(prefix, 'runing:', i)
-const df = debounce(fn)
+const df = debounce(fn,300)
 
 for (let i = 0; i < 2000; i++) {
     df(i, 'debounce')

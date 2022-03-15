@@ -1,7 +1,7 @@
 /*
  * @Author: vyron
  * @Date: 2021-11-23 17:15:23
- * @LastEditTime: 2022-01-04 12:26:04
+ * @LastEditTime: 2022-03-15 12:10:53
  * @LastEditors: vyron
  * @Description: 实现节流
  * @FilePath: /awesome-coding-js/javascript/throttle.js
@@ -40,7 +40,7 @@ const shouldThrottleFunction = () => {
     let throttled = throttle(() => {
         count++;
         console.log(`count:`, count)
-    }, 0)
+    }, 50)
 
     throttled()
     throttled()

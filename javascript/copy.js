@@ -1,9 +1,9 @@
 /*
  * @Author: vyron
  * @Date: 2021-11-23 17:18:24
- * @LastEditTime: 2021-12-22 13:10:04
+ * @LastEditTime: 2022-03-15 14:18:10
  * @LastEditors: vyron
- * @Dedcription: 深拷贝和浅拷贝
+ * @Description: 深拷贝和浅拷贝
  * @FilePath: /awesome-coding-js/javascript/copy.js
  */
 
@@ -49,12 +49,8 @@ const deepAssign = (target, ...sources) => {
         const source = sources[i];
         if (!isObject(source)) return
         Object.entries(source).forEach(([key, value]) => {
-            if (isDate(value)) {
-                target[key] = new Date(value)
-                return
-            }
-            if (isRegExp(value)) {
-                target[key] = new RegExp(value)
+            if (isDate(value) || isRegExp(value)) {
+                target[key] = new value.constructor(value)
                 return
             }
             if (!isObject(value)) {
