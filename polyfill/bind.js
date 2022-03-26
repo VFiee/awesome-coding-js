@@ -1,7 +1,7 @@
 /*
  * @Author: vyron
  * @Date: 2022-03-15 12:21:06
- * @LastEditTime: 2022-03-15 14:34:41
+ * @LastEditTime: 2022-03-16 13:08:45
  * @LastEditors: vyron
  * @Description: bind implement
  * @FilePath: /awesome-coding-js/polyfill/bind.js

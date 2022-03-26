@@ -1,7 +1,7 @@
 /*
  * @Author: vyron
  * @Date: 2021-11-23 17:15:23
- * @LastEditTime: 2022-03-15 11:11:16
+ * @LastEditTime: 2022-03-16 09:08:27
  * @LastEditors: vyron
  * @Description: 实现防抖
  * @FilePath: /awesome-coding-js/javascript/debounce.js
@@ -20,22 +20,22 @@ const debounce = (fn, wait = 0) => {
             }, wait)
         }
         if (timer) {
-            console.log(`clear`)
             clearTimeout(timer)
             timer = null
         }
         run()
     }
     function cancel() {
-        timer && clearTimeout(timer)
+        if(typeof timer !== "number") return
+        clearTimeout(timer)
         timer = null
     }
     function flush(...args) {
         cancel()
         fn(...args)
     }
-    debounced.prototype.cancel = cancel
-    debounced.prototype.flush = flush
+    debounced.cancel = cancel
+    debounced.flush = flush
     return debounced
 }
 
